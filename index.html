@@ -203,7 +203,7 @@ function finish(){
     else wrong.push(idx);
   });
   let score=Math.round(correct/questions.length*100);
-  let msg = score>=50 ? "أحسنت! اجتياز موفق" : "راجع المواد جيداً وحاول مرة أخرى";
+  let msg = score>=46 ? "احسنت يا شطور!" : "لا تزعل بتترفع المرة الجاي";
 
   document.getElementById("app").innerHTML=`
     <h2>${msg}</h2>
